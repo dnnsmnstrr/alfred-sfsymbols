@@ -9,5 +9,5 @@ sfsymbols --output symbols --format png # did the trick
 Unfortunately [this currently only works with](https://github.com/davedelong/sfsymbols/issues/23) [Version 1](developer.apple.com/design/downloads/SF-Symbols.dmg) of SF-Symbols, so some of the new icons don't have a preview yet.
 
 ## Useful links
-https://sfsymbols.com/
-https://www.avanderlee.com/swift/sf-symbols-guide/
+- https://sfsymbols.com/ 
+- https://www.avanderlee.com/swift/sf-symbols-guide/
