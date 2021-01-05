@@ -1,0 +1,12 @@
+{
+  "name": "alfred-sfsymbols",
+  "version": "1.0.0",
+  "description": "Search for SFSymbol codes",
+  "main": "index.js",
+  "author": "dnnsmnstrr",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "alfy": "^0.10.0"
+  }
+}
