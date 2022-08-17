@@ -1367,6 +1367,11 @@ supports-color@^5.3.0:
   dependencies:
     has-flag "^3.0.0"
 
+symbolist@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.hpm.digital/symbolist/-/symbolist-1.2.0.tgz#29d5c1df8f45b0d34298f4825358a388c6460296"
+  integrity sha512-wkL+IgGG+wovZHRhQdbxOM0JiLV0U0trqROeLIP/+zdWOf5GG3OF6ZEoootNO2Sh4TyQr9MBhx++bR50lDUL6g==
+
 timed-out@^4.0.0:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/timed-out/-/timed-out-4.0.1.tgz#f32eacac5a175bea25d7fab565ab3ed8741ef56f"

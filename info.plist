@@ -4,6 +4,8 @@
 <dict>
 	<key>bundleid</key>
 	<string>xyz.muensterer.sfsymbols</string>
+	<key>category</key>
+	<string>Dev</string>
 	<key>connections</key>
 	<dict>
 		<key>CB52B3CF-931D-466F-A9C8-53F91FAA505B</key>
@@ -21,34 +23,15 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string></string>
+	<string>Dennis Muensterer</string>
 	<key>description</key>
-	<string></string>
+	<string>Search for sf symbol names</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>sfsymbols</string>
+	<string>SF Symbols</string>
 	<key>objects</key>
 	<array>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>autopaste</key>
-				<true/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>ignoredynamicplaceholders</key>
-				<false/>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>79721155-AA35-423E-839F-A7911D74FE60</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -95,6 +78,25 @@
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>CB52B3CF-931D-466F-A9C8-53F91FAA505B</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>79721155-AA35-423E-839F-A7911D74FE60</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>

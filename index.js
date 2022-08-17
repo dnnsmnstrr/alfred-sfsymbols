@@ -1,12 +1,12 @@
 const alfy = require('alfy')
 const path = require('path')
-const symbols = require('./symbols.json')
+const { symbols } = require('symbolist')
 
-let data = symbols.map((item) => {
+let data = Object.keys(symbols).map((item) => {
   const imagePath = `./symbols/${item}.png`
   const [title, ...modifiers] = item.split('.')
   return {
-    title,
+    title: symbols[item] + ' ' + title + (modifiers.length ? ` (${modifiers.join(', ')})` : ''),
     autocomplete: title,
     subtitle: modifiers.reduce((previous, currentValue, currentIndex) => {
       return previous.concat(currentValue).concat(currentIndex < modifiers.length - 1 ? ', ' : '')
@@ -19,7 +19,6 @@ let data = symbols.map((item) => {
   }
 })
 
-const items = alfy.inputMatches(data, 'title')
+const items = alfy.inputMatches(data, 'autocomplete')
 
 alfy.output(items)
-
